@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="javascript/jquery-3.1.1.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"> -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<body>
+  <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">RECIPES?!</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <!-- <li><a href="#">Link</a></li> -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="recipe-index.html">Recipe Index</a></li>
+            <li><a href="add-recipe.html">Add New Recipe</a></li>
+            <li><a href="map.html">Nearby Restaurants</a></li>
+            <li role="separator" class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="http://www.iconj.com/ico/k/k/kk66h8j9fa.ico">
+
+  <title>Jumbotron Template for Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <!-- <link href="jumbotron.css" rel="stylesheet"> -->
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- Be sure to remove the data interval false before finishing -->
+<div style="height: 60%;">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="main-text">
+          <!-- <div class="main-text hidden-xs"> -->
+        <div class="col-md-12 text-center" style="margin-top: 15%;background-color: rgba(0,0,0,0.5);">
+            <h1>
+                Need some inspiration?</h1>
+            <h3>
+                I hope I can help!
+            </h3>
+            <div class="">
+                <a class="btn btn-clear btn-sm btn-min-block" href="http://" style="border-color: white;">Browse!</a>
+                <!-- <a class="btn btn-clear btn-sm btn-min-block" href="http://www.jquery2dotnet.com/">Registration</a> -->
+            </div>
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div id="first-carousel-image"></div>
+            <div class="carousel-caption"></div>
+          </div>
+          <div class="item">
+            <div id="second-carousel-image"></div>
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="item">
+              <div id="third-carousel-image"></div>
+              <div class="carousel-caption">
+
+              </div>
+            </div>
+          </div>
+          ...
+        </div>
+      <!-- </div> -->
+    <!-- </div> -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 style="color: #805e5f;">Hello, world!</h1>
+      <p style="color: #805e5f;">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a id="jumbotron-button" class="btn btn-primary btn-lg detail-button detail-button hover-button" href="#" role="button">Learn more &raquo;</a></p>
+
+      </div>
+    </div>
+  <div id="featured-content" class="container" style="padding-top: 15px;">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <!-- <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg" style="width: 140px; height: 140px; border-radius: 50%;"> -->
+        <img alt="140x140" src="https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg" style="width: 100%; height: 100%;">
+        <h2>Let it Crumble</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default detail-button hover-button" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <img alt="140x140" src="https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg" style="width: 100%; height: 100%;">
+        <h2>Passionfruit Passions</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+          ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+          sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
+          odio dui. </p>
+        <p><a class="btn btn-default detail-button hover-button" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <img alt="140x140" src="https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg" style="width: 100%; height: 100%;">
+        <h2>Not Only Sweet</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+          ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+          sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
+          odio dui.</p>
+        <p><a class="btn btn-default detail-button hover-button" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+  <div style="background-color: #805e5f !important;height: 60px;margin-top: -20px;">
+    <hr>
+    <footer>
+      <p>&copy; 2017 By Krizia Conrad</p>
+    </footer>
+  </div>
+  <!-- /container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
+
+  <!-- <div id="photo-viewer">
+  </div>
+
+  <div id="thumbnails">
+    <a href="img/scallops.jpg" class="thumb active" title="Scallops and Salad">
+      <img src ="img/scallops.jpg" class="thumb" alt="Scallops" />
+    </a>
+    <a href="img/spinachpockets.jpg" class="thumb" title="Spinach Cheese Chicken Pockets">
+      <img src ="img/spinachpockets.jpg" class="thumb" alt="Spinach Pockets" />
+    </a>
+    <a href="img/steakpotatoes.jpg" class="thumb" title="Steak and Potatoes">
+      <img src ="img/steakpotatoes.jpg" class="thumb" alt="Steak and Potatoes"/>
+    </a>
+    <a href="img/chicken-stock.jpg" class="thumb" title="Chicken Stock">
+      <img src ="img/chicken-stock.jpg" class="thumb" alt="Chicken Stock"/>
+    </a>
+  </div> -->
+
+
+
+
+
+  <script src="javascript/app.js"></script>
+    <script src="javascript/photo-viewer.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>

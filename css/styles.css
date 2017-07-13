@@ -1,0 +1,156 @@
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+.images {
+  max-height: 700px;
+  margin: auto !important;
+}
+
+.thumb {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#photo-viewer {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+#photo-viewer.is-loading:after {
+  content: url(images/load.gif);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#photo-viewer img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+a.active {
+  opacity: 0.3;
+}
+
+body {
+  background-color: #ebe5d9 !important;
+}
+
+.jumbotron {
+  background-color: #ebe5d9 !important;
+  /*background-color: rgba(252,139,121,0.8) !important;*/
+  /*background-color: rgba(255,0,0,0.7) !important;*/
+}
+
+.detail-button {
+  /*  background-color: #bbdf7f !important; */
+  /*background-color: #99CC66 !important;*/
+  border-color: #7EB647 !important;
+  background-color: #99CC66 !important;
+  color: #ffffff !important;
+}
+
+.hover-button:hover {
+  background-color: #7EB647 !important;
+  border-color: #7EB647 !important;
+  color:
+}
+
+#featured-content {
+  width: 100% !important;
+  background-color: rgba(252,139,121,0.7) !important;
+  padding-top: 25px;
+  /*height: 75%;*/
+}
+
+#carousel-text {
+  margin-top: 25%;
+}
+
+.carousel-control {
+  z-index: 50;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: #FFF;
+    z-index: 1;
+    /*margin-top: 15%;*/
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+
+
+
+
+html, body, .carousel,  .carousel-inner, .carousel-inner .item {
+   height: 100%;
+}
+
+/*The carousel images on the front page*/
+#first-carousel-image {
+    background-image: url("http://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/1/23/0/KC0101_Italian-Chicken-Pasta-Salad_s4x3.jpg.rend.hgtvcom.966.773.jpeg");
+    z-index: -3;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#second-carousel-image {
+    background-image: url("http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/4/0/YW0207H_charleston-cheese-dip-recipe_s4x3.jpg.rend.hgtvcom.966.725.jpeg");
+    z-index: -3;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#third-carousel-image {
+    background-image: url("http://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/4/22/0/CCWID-101H_Brasied-Pork-Tacos_s4x3.jpg.rend.hgtvcom.966.725.jpeg");
+    z-index: -3;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media (max-width: 767px) {
+  body {
+      padding: 0px !important;
+  }
+}
