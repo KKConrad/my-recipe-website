@@ -59,7 +59,6 @@ body {
 .hover-button:hover {
   background-color: #7EB647 !important;
   border-color: #7EB647 !important;
-  color:
 }
 
 #featured-content {
@@ -71,6 +70,155 @@ body {
 
 #carousel-text {
   margin-top: 25%;
+}
+
+#blueberries-and-cream-cookies {
+  background-image: url("../img/blueberries-and-cream-cookies.JPG");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#bacon-asparagus-bundles {
+  background-image: url("../img/bacon-asparagus-bundles.JPG");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#fluffy-pancakes {
+  background-image: url("http://www.seriouseats.com/recipes/assets_c/2015/05/20150518-pancakes-new-kenji-thumb-1500xauto-423207.jpg");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#greek-mediterranean-salad {
+  background-image: url("../img/mediterranean-greek-salad.JPG");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#oatmeal-cookies {
+  background-image: url("../img/oatmeal-cookies.JPG");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#smoked-beef-brisket {
+  background-image: url("../img/smoked-beef-brisket.JPG");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#recipe-index-photo {
+  background-image: url("../img/guacamole-for-a-crowd.JPG");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#breakfast-index {
+  background-image: url("https://previews.123rf.com/images/zstockphotos/zstockphotos1303/zstockphotos130300036/18433459-Healthy-organic-breakfast-in-carved-watermelon-Stock-Photo.jpg");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#lunch-index {
+  background-image: url("https://static.pexels.com/photos/2139/food-summer-party-dinner.jpg");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#dinner-index {
+  background-image: url("https://www.bbcgoodfood.com/sites/default/files/recipe_images/heirloom-tomato-watermelon-salad.jpg");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#dessert-index {
+  background-image: url("https://image.shutterstock.com/z/stock-photo-chocolate-dessert-with-strawberry-107126984.jpg");
+  z-index: -3;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.recipe-link {
+  /*color: #8cc170;*/
+  color: #7EB647;
+  /*color: rgba(126, 182, 71, 0.9);*/
+  /*color: rgba(76, 122, 30, 0.9);*/
+  /*darker version of the green above*/
+  /*color: #4C7A1E*/
+}
+
+.recipe-link:hover {
+  color: #4C7A1E
+}
+
+.recipe-link:visited {
+    color: rgba(76, 122, 30, 0.9);
 }
 
 .carousel-control {
@@ -101,8 +249,101 @@ body {
 .btn-clear:hover
 {
     color: #000;
-    background-color: #FFF;
+    background-color: #bbdf7f;
 }
+
+@media (min-width:320px) {
+  .recipe-directions {
+    max-width: 100%;
+    margin: auto;
+    background-color: #e2d9ca;
+    padding: 5px 9px 5px 8px;
+    border-radius: 10px;
+  }
+  .container {
+    padding: 1px !important;
+    width: 100%;
+  }
+  .main-text {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: #FFF;
+    z-index: 1;
+    /* margin-top: 15%; */
+  }
+  #front-page-text-bg {
+    margin-top: 150px;
+    background-color: rgba(0,0,0,0.5) !important;
+  }
+  #cover-photo {
+    height: 40%;
+  }
+}
+
+@media (min-width:480px) {
+  #front-page-text-bg {
+    margin-top: 300px;
+  }
+  #cover-photo {
+    height: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .recipe-directions {
+    width: 95%;
+    margin: auto;
+    background-color: #e2d9ca;
+    padding: 15px 30px 15px 50px;
+    border-radius: 10px;
+  }
+  .container {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    width: 100%;
+  }
+  /*#front-page-text-bg {
+    margin-top: 300px;
+    background-color: rgba(0,0,0,0.5) !important;
+  }
+  #cover-photo {
+    height: 60%;
+  }*/
+}
+
+/*@media (max-width: 961px) {
+  .recipe-directions {
+    width: 70%;
+  }
+}*/
+
+@media (min-width: 1025px) {
+  .recipe-directions {
+    width: 80%;
+    margin: auto;
+    background-color: #e2d9ca;
+    padding: 15px 30px 15px 50px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width:1281px) {
+  .recipe-directions {
+    width: 60%;
+    margin: auto;
+    background-color: #e2d9ca;
+    padding: 15px 30px 15px 50px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .recipe-directions {
+    width: 40%;
+  }
+}
+
 
 
 
