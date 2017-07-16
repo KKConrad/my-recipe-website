@@ -3,8 +3,8 @@
 <head>
   <title>Recipes!?</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css">
   <meta charset="utf-8">
   <link rel="icon" href="http://www.iconj.com/ico/k/k/kk66h8j9fa.ico">
   <!-- Bootstrap core CSS -->
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+  <nav id="meal-type-navigation" class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -28,9 +28,10 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
-          <!-- <li><a href="breakfast-index.html">Breakfast <span class="sr-only">(current)</span></a></li>
+          <li><a href="breakfast-index.html">Breakfast <span class="sr-only">(current)</span></a></li>
           <li><a href="lunch-index.html">Lunch <span class="sr-only">(current)</span></a></li>
-          <li><a href="dinner-index.html">Dinner <span class="sr-only">(current)</span></a></li> -->
+          <li><a href="dinner-index.html">Dinner <span class="sr-only">(current)</span></a></li>
+          <li><a href="dessert-index.html">Dessert <span class="sr-only">(current)</span></a></li>
           <li class="active"><a href="meal-index.html">Meal Type <span class="sr-only">(current)</span></a></li>
           <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -48,7 +49,7 @@
   <div id="cover-photo">
     <div class="main-text">
         <div class="col-md-12 text-center" id="front-page-text-bg" style="background-color: rgba(0,0,0,0.5);">
-            <h1>Meal Types :)</h1>
+            <h1 style="padding-bottom: 10px;">Meal Types :)</h1>
         </div>
     </div>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -75,9 +76,9 @@
     <div class="jumbotron" style="background-color: #e2d9ca !important;">
       <div class="container">
         <h1 style="color: #805e5f;">Lunch</h1>
-      <p style="color: #805e5f;">This is a template for a simple marketing or informational website.
-        It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a
-        starting point to create something more unique.</p>
+      <p style="color: #805e5f;">Midday meals are always something that everyone
+        looks forward to, especially during their work days. Go in here for
+        simple and flavorful lunch ideas that you'd be proud to serve.</p>
         <p><a id="jumbotron-button" class="btn btn-primary btn-lg detail-button detail-button hover-button" href="lunch-index.html" role="button">Check them out &raquo;</a></p>
       </div>
     </div>
@@ -85,9 +86,8 @@
     <div class="jumbotron">
       <div class="container">
         <h1 style="color: #805e5f;">Dinner</h1>
-      <p style="color: #805e5f;">This is a template for a simple marketing or informational website.
-        It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a
-        starting point to create something more unique.</p>
+      <p style="color: #805e5f;">I like to think of this as the meal that everyone looks forword to. What's not to love about it? It brings people together over
+        a common denomenator: food. Your next dinner party will be all the rave!</p>
         <p><a id="jumbotron-button" class="btn btn-primary btn-lg detail-button detail-button hover-button" href="dinner-index.html" role="button">Learn more &raquo;</a></p>
 
       </div>
@@ -95,7 +95,9 @@
     <div class="jumbotron" style="background-color: #e2d9ca !important;">
       <div class="container">
         <h1 style="color: #fc8b79;">Dessert</h1>
-      <p style="color: #805e5f;">This is the best meal of the day, of course.</p>
+      <p style="color: #805e5f;">This is the best meal of the day, but this could
+        be a subjective opinion. A little sugar never hurt anyone... I hope? :)
+        Enter the dessert realm to end any meal on a sweet note.</p>
         <p><a id="jumbotron-button" class="btn btn-primary btn-lg detail-button detail-button hover-button" href="dessert-index.html" role="button">Learn more &raquo;</a></p>
 
       </div>
@@ -118,11 +120,6 @@
   <script>
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
   </script>
-  <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  <script src="javascript/app.js"></script>
-    <script src="javascript/photo-viewer.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
